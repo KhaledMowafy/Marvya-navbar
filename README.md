@@ -1,4 +1,5 @@
 <h1>Marvya Navbar Project Submission</h1>
+<strong><a href='https://frolicking-nasturtium-bdf3af.netlify.app/'>demo</a></strong>
 <p>This repository contains my submission for the Marvya Frontend Test, where I was tasked with creating a responsive and interactive navigation bar using only plain HTML, CSS, and JavaScript.</p>
 
 <h3>Project Structure</h3>
