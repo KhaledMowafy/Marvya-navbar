@@ -3,9 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="../assets/css/styles.css">
+        <link rel="stylesheet" href="../assets/css/burger-menu.css">
 
         <title>Marvya - navbar</title>
     </head>
@@ -43,9 +44,41 @@
 
                     </li>
                </ul>
-            </div>
-        </nav>
+               <div  id="mobile__nav-menu">
+                <ul class="menu">
+                    <li><a href="../index.html" class="nav__list_link">Home</a></li>
+                    <li class="active">About</li>
+                    <li>Contact</li>
+                    <li class="navbar_level_1_li">
+                        <a href="" class="navbar_level_1_link">Consultation</a>
+                    
+                        <ul class="dropdown_level_1">
+                                <li class="navbar_level_2_li"><a href="#" class="navbar_level_2_link">
+                                    <h3>STOCKS AND PROFTI</h3></a>
+                                    <ul class="dropdown_level_2">
+                                        <li class="dropdown_level_2-item">navbar mega menu</li>
+                                        <li class="dropdown_level_2-item">navbar mega menu</li>
+                                        <li class="dropdown_level_2-item">navbar mega menu</li>
+                                        <li class="dropdown_level_2-item">navbar mega menu</li>
+                                        <li class="dropdown_level_2-item">navbar mega menu</li>
+                                    </ul>
+                                </li>
+                                <li class="navbar_level_2_li"><a href="#" class="navbar_level_2_link"><h3>STOCKS AND PROFTI</h3></a></li>
+                                <li class="navbar_level_2_li"><a href="#" class="navbar_level_2_link"><h3>STOCKS AND PROFTI</h3></a></li>
+                                <li class="navbar_level_2_li"><a href="#" class="navbar_level_2_link"><h3>STOCKS AND PROFTI</h3></a></li>
+                        </ul>
 
+                    </li>
+                  </ul>
+                  <button class="hamburger">
+                    <span class="material-icons" style="color: rgb(255, 255, 255);">menu</span>
+                    <span class="material-icons closeIcon" style="color: rgb(255, 255, 255);">close</span>
+                  </button>
+            </div>
+            </div>
+            
+        </nav>
+        
         <main class="main" id="main">
           
             <section class="section section__height container" id="home">
@@ -54,6 +87,6 @@
             </section>
         </main>
 
-        <script src="assets/js/main.js"></script>
+        <script src="../assets/js/main.js"></script>
     </body>
 </html>

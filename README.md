@@ -5,15 +5,9 @@
 <p>The project consists of three main files:</p>
 
 <ul>
-<li>```js 
-index.html
-    ``` - the markup for the navigation bar.</li>
-<li>```js 
-styles.css
-``` - the styling rules for the navbar, ensuring it is visually appealing and responsive.</li>
-<li>```js 
-main.js
-``` - the JavaScript code that adds interactivity to the navigation bar, such as dropdowns and responsive toggles.</li>
+<li>index.html - the markup for the navigation bar.</li>
+<li>styles.css - the styling rules for the navbar, ensuring it is visually appealing and responsive.</li>
+<li>main.js - the JavaScript code that adds interactivity to the navigation bar, such as dropdowns and responsive toggles.</li>
 </ul>
 <h3>Features</h3>
 <ul>
